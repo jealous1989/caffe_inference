@@ -1,0 +1,1 @@
+cmd='env;CFLAGS=-fPIC;CXXFLAGS=-fPIC;/data/chenchao/xRobot/caffe/test_cmake/external/glog-prefix/src/glog/configure;--prefix=/data/chenchao/xRobot/caffe/test_cmake/external/glog-install;--enable-shared=no;--enable-static=yes;--with-gflags=/data/chenchao/xRobot/caffe/test_cmake/external/gflags-install/lib/..'

@@ -1,0 +1,31 @@
+Running with debug output on.
+-- Could NOT find GFlags (missing:  GFLAGS_LIBRARY) 
+   Called from: [7]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+                [6]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+                [5]	/data/chenchao/xRobot/caffe/cmake/Modules/FindGFlags.cmake
+                [4]	/data/chenchao/xRobot/caffe/cmake/External/gflags.cmake
+                [3]	/data/chenchao/xRobot/caffe/cmake/External/glog.cmake
+                [2]	/data/chenchao/xRobot/caffe/cmake/Dependencies.cmake
+                [1]	/data/chenchao/xRobot/caffe/CMakeLists.txt
+-- Could NOT find Glog (missing:  GLOG_LIBRARY) 
+   Called from: [6]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+                [5]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+                [4]	/data/chenchao/xRobot/caffe/cmake/Modules/FindGlog.cmake
+                [3]	/data/chenchao/xRobot/caffe/cmake/External/glog.cmake
+                [2]	/data/chenchao/xRobot/caffe/cmake/Dependencies.cmake
+                [1]	/data/chenchao/xRobot/caffe/CMakeLists.txt
+-- Found PROTOBUF Compiler: /usr/bin/protoc
+   Called from: [3]	/data/chenchao/xRobot/caffe/cmake/ProtoBuf.cmake
+                [2]	/data/chenchao/xRobot/caffe/cmake/Dependencies.cmake
+                [1]	/data/chenchao/xRobot/caffe/CMakeLists.txt
+-- HDF5: Using hdf5 compiler wrapper to determine C configuration
+   Called from: [3]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindHDF5.cmake
+                [2]	/data/chenchao/xRobot/caffe/cmake/Dependencies.cmake
+                [1]	/data/chenchao/xRobot/caffe/CMakeLists.txt
+-- HDF5: Using hdf5 compiler wrapper to determine CXX configuration
+   Called from: [3]	/data/chenchao/anaconda2/share/cmake-3.6/Modules/FindHDF5.cmake
+                [2]	/data/chenchao/xRobot/caffe/cmake/Dependencies.cmake
+                [1]	/data/chenchao/xRobot/caffe/CMakeLists.txt
+-- Configuring incomplete, errors occurred!
+See also "/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeOutput.log".
+See also "/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeError.log".

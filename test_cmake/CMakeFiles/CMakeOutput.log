@@ -1,0 +1,1964 @@
+The system is: Linux - 4.4.0-31-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /data/chenchao/anaconda2/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/3.6.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /data/chenchao/anaconda2/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/3.6.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8050/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8050.dir/build.make CMakeFiles/cmTC_c8050.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8050.dir/testCCompiler.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_c8050.dir/testCCompiler.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c8050
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8050.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_c8050.dir/testCCompiler.c.o  -o cmTC_c8050 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d955/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d955.dir/build.make CMakeFiles/cmTC_7d955.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7d955
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d955.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc      -v -Wl,--verbose CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o  -o cmTC_7d955 -rdynamic  
+Reading specs from /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/data/chenchao/anaconda2/bin/cc
+COLLECT_LTO_WRAPPER=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../libexec/gcc/
+LIBRARY_PATH=/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../lib/gcc/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d955' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7d955 /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/data/chenchao/anaconda2/bin/../lib/gcc -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. --verbose CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf_x86_64
+   elf32_x86_64
+   elf_i386
+   elf_iamcu
+   i386linux
+   elf_l1om
+   elf_k1om
+   i386pep
+   i386pe
+using internal linker script:
+==================================================
+/* Script for -z combreloc: combine and sort reloc sections */
+/* Copyright (C) 2014-2015 Free Software Foundation, Inc.
+   Copying and distribution of this script, with or without modification,
+   are permitted in any medium without royalty provided the copyright
+   notice and this notice are preserved.  */
+OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",
+	      "elf64-x86-64")
+OUTPUT_ARCH(i386:x86-64)
+ENTRY(_start)
+SEARCH_DIR("=/usr/local/lib/x86_64-linux-gnu"); SEARCH_DIR("=/lib/x86_64-linux-gnu"); SEARCH_DIR("=/usr/lib/x86_64-linux-gnu"); SEARCH_DIR("=/usr/local/lib64"); SEARCH_DIR("=/lib64"); SEARCH_DIR("=/usr/lib64"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib"); SEARCH_DIR("=/usr/x86_64-linux-gnu/lib64"); SEARCH_DIR("=/usr/x86_64-linux-gnu/lib");
+SECTIONS
+{
+  /* Read-only sections, merged into text segment: */
+  PROVIDE (__executable_start = SEGMENT_START("text-segment", 0x400000)); . = SEGMENT_START("text-segment", 0x400000) + SIZEOF_HEADERS;
+  .interp         : { *(.interp) }
+  .note.gnu.build-id : { *(.note.gnu.build-id) }
+  .hash           : { *(.hash) }
+  .gnu.hash       : { *(.gnu.hash) }
+  .dynsym         : { *(.dynsym) }
+  .dynstr         : { *(.dynstr) }
+  .gnu.version    : { *(.gnu.version) }
+  .gnu.version_d  : { *(.gnu.version_d) }
+  .gnu.version_r  : { *(.gnu.version_r) }
+  .rela.dyn       :
+    {
+      *(.rela.init)
+      *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+      *(.rela.fini)
+      *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+      *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+      *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+      *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+      *(.rela.ctors)
+      *(.rela.dtors)
+      *(.rela.got)
+      *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+      *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+      *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+      *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+      *(.rela.ifunc)
+    }
+  .rela.plt       :
+    {
+      *(.rela.plt)
+      PROVIDE_HIDDEN (__rela_iplt_start = .);
+      *(.rela.iplt)
+      PROVIDE_HIDDEN (__rela_iplt_end = .);
+    }
+  .init           :
+  {
+    KEEP (*(SORT_NONE(.init)))
+  }
+  .plt            : { *(.plt) *(.iplt) }
+.plt.got        : { *(.plt.got) }
+.plt.bnd        : { *(.plt.bnd) }
+  .text           :
+  {
+    *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+    *(.text.exit .text.exit.*)
+    *(.text.startup .text.startup.*)
+    *(.text.hot .text.hot.*)
+    *(.text .stub .text.* .gnu.linkonce.t.*)
+    /* .gnu.warning sections are handled specially by elf32.em.  */
+    *(.gnu.warning)
+  }
+  .fini           :
+  {
+    KEEP (*(SORT_NONE(.fini)))
+  }
+  PROVIDE (__etext = .);
+  PROVIDE (_etext = .);
+  PROVIDE (etext = .);
+  .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }
+  .rodata1        : { *(.rodata1) }
+  .eh_frame_hdr : { *(.eh_frame_hdr) *(.eh_frame_entry .eh_frame_entry.*) }
+  .eh_frame       : ONLY_IF_RO { KEEP (*(.eh_frame)) *(.eh_frame.*) }
+  .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table
+  .gcc_except_table.*) }
+  .gnu_extab   : ONLY_IF_RO { *(.gnu_extab*) }
+  /* These sections are generated by the Sun/Oracle C++ compiler.  */
+  .exception_ranges   : ONLY_IF_RO { *(.exception_ranges
+  .exception_ranges*) }
+  /* Adjust the address for the data segment.  We want to adjust up to
+     the same address within the page on the next page up.  */
+  . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE));
+  /* Exception handling  */
+  .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) *(.eh_frame.*) }
+  .gnu_extab      : ONLY_IF_RW { *(.gnu_extab) }
+  .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }
+  .exception_ranges   : ONLY_IF_RW { *(.exception_ranges .exception_ranges*) }
+  /* Thread Local Storage sections  */
+  .tdata	  : { *(.tdata .tdata.* .gnu.linkonce.td.*) }
+  .tbss		  : { *(.tbss .tbss.* .gnu.linkonce.tb.*) *(.tcommon) }
+  .preinit_array     :
+  {
+    PROVIDE_HIDDEN (__preinit_array_start = .);
+    KEEP (*(.preinit_array))
+    PROVIDE_HIDDEN (__preinit_array_end = .);
+  }
+  .init_array     :
+  {
+    PROVIDE_HIDDEN (__init_array_start = .);
+    KEEP (*(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*)))
+    KEEP (*(.init_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .ctors))
+    PROVIDE_HIDDEN (__init_array_end = .);
+  }
+  .fini_array     :
+  {
+    PROVIDE_HIDDEN (__fini_array_start = .);
+    KEEP (*(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*)))
+    KEEP (*(.fini_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .dtors))
+    PROVIDE_HIDDEN (__fini_array_end = .);
+  }
+  .ctors          :
+  {
+    /* gcc uses crtbegin.o to find the start of
+       the constructors, so we make sure it is
+       first.  Because this is a wildcard, it
+       doesn't matter if the user does not
+       actually link against crtbegin.o; the
+       linker won't look for a file to match a
+       wildcard.  The wildcard also means that it
+       doesn't matter which directory crtbegin.o
+       is in.  */
+    KEEP (*crtbegin.o(.ctors))
+    KEEP (*crtbegin?.o(.ctors))
+    /* We don't want to include the .ctor section from
+       the crtend.o file until after the sorted ctors.
+       The .ctor section from the crtend file contains the
+       end of ctors marker and it must be last */
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .ctors))
+    KEEP (*(SORT(.ctors.*)))
+    KEEP (*(.ctors))
+  }
+  .dtors          :
+  {
+    KEEP (*crtbegin.o(.dtors))
+    KEEP (*crtbegin?.o(.dtors))
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .dtors))
+    KEEP (*(SORT(.dtors.*)))
+    KEEP (*(.dtors))
+  }
+  .jcr            : { KEEP (*(.jcr)) }
+  .data.rel.ro : { *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*) *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*) }
+  .dynamic        : { *(.dynamic) }
+  .got            : { *(.got) *(.igot) }
+  . = DATA_SEGMENT_RELRO_END (SIZEOF (.got.plt) >= 24 ? 24 : 0, .);
+  .got.plt        : { *(.got.plt)  *(.igot.plt) }
+  .data           :
+  {
+    *(.data .data.* .gnu.linkonce.d.*)
+    SORT(CONSTRUCTORS)
+  }
+  .data1          : { *(.data1) }
+  _edata = .; PROVIDE (edata = .);
+  . = .;
+  __bss_start = .;
+  .bss            :
+  {
+   *(.dynbss)
+   *(.bss .bss.* .gnu.linkonce.b.*)
+   *(COMMON)
+   /* Align here to ensure that the .bss section occupies space up to
+      _end.  Align after .bss to ensure correct alignment even if the
+      .bss section disappears because there are no input sections.
+      FIXME: Why do we need it? When there is no .bss section, we don't
+      pad the .data section.  */
+   . = ALIGN(. != 0 ? 64 / 8 : 1);
+  }
+  .lbss   :
+  {
+    *(.dynlbss)
+    *(.lbss .lbss.* .gnu.linkonce.lb.*)
+    *(LARGE_COMMON)
+  }
+  . = ALIGN(64 / 8);
+  . = SEGMENT_START("ldata-segment", .);
+  .lrodata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :
+  {
+    *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+  }
+  .ldata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :
+  {
+    *(.ldata .ldata.* .gnu.linkonce.l.*)
+    . = ALIGN(. != 0 ? 64 / 8 : 1);
+  }
+  . = ALIGN(64 / 8);
+  _end = .; PROVIDE (end = .);
+  . = DATA_SEGMENT_END (.);
+  /* Stabs debugging sections.  */
+  .stab          0 : { *(.stab) }
+  .stabstr       0 : { *(.stabstr) }
+  .stab.excl     0 : { *(.stab.excl) }
+  .stab.exclstr  0 : { *(.stab.exclstr) }
+  .stab.index    0 : { *(.stab.index) }
+  .stab.indexstr 0 : { *(.stab.indexstr) }
+  .comment       0 : { *(.comment) }
+  /* DWARF debug sections.
+     Symbols in the DWARF debugging sections are relative to the beginning
+     of the section so we begin them at 0.  */
+  /* DWARF 1 */
+  .debug          0 : { *(.debug) }
+  .line           0 : { *(.line) }
+  /* GNU DWARF 1 extensions */
+  .debug_srcinfo  0 : { *(.debug_srcinfo) }
+  .debug_sfnames  0 : { *(.debug_sfnames) }
+  /* DWARF 1.1 and DWARF 2 */
+  .debug_aranges  0 : { *(.debug_aranges) }
+  .debug_pubnames 0 : { *(.debug_pubnames) }
+  /* DWARF 2 */
+  .debug_info     0 : { *(.debug_info .gnu.linkonce.wi.*) }
+  .debug_abbrev   0 : { *(.debug_abbrev) }
+  .debug_line     0 : { *(.debug_line .debug_line.* .debug_line_end ) }
+  .debug_frame    0 : { *(.debug_frame) }
+  .debug_str      0 : { *(.debug_str) }
+  .debug_loc      0 : { *(.debug_loc) }
+  .debug_macinfo  0 : { *(.debug_macinfo) }
+  /* SGI/MIPS DWARF 2 extensions */
+  .debug_weaknames 0 : { *(.debug_weaknames) }
+  .debug_funcnames 0 : { *(.debug_funcnames) }
+  .debug_typenames 0 : { *(.debug_typenames) }
+  .debug_varnames  0 : { *(.debug_varnames) }
+  /* DWARF 3 */
+  .debug_pubtypes 0 : { *(.debug_pubtypes) }
+  .debug_ranges   0 : { *(.debug_ranges) }
+  /* DWARF Extension.  */
+  .debug_macro    0 : { *(.debug_macro) }
+  .gnu.attributes 0 : { KEEP (*(.gnu.attributes)) }
+  /DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) }
+}
+
+
+==================================================
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o
+attempt to open CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o succeeded
+CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded
+-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.a failed
+attempt to open /lib/../lib/libc.so failed
+attempt to open /lib/../lib/libc.a failed
+attempt to open /usr/lib/../lib/libc.so failed
+attempt to open /usr/lib/../lib/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.a failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libc.so failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libc.a failed
+attempt to open //lib/x86_64-linux-gnu/libc.so failed
+attempt to open //lib/x86_64-linux-gnu/libc.a failed
+attempt to open //usr/lib/x86_64-linux-gnu/libc.so succeeded
+opened script file //usr/lib/x86_64-linux-gnu/libc.so
+opened script file //usr/lib/x86_64-linux-gnu/libc.so
+attempt to open /lib/x86_64-linux-gnu/libc.so.6 succeeded
+/lib/x86_64-linux-gnu/libc.so.6
+attempt to open /usr/lib/x86_64-linux-gnu/libc_nonshared.a succeeded
+(/usr/lib/x86_64-linux-gnu/libc_nonshared.a)elf-init.oS
+attempt to open /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 succeeded
+/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded
+-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+ld-linux-x86-64.so.2 needed by /lib/x86_64-linux-gnu/libc.so.6
+found ld-linux-x86-64.so.2 at /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7d955/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7d955.dir/build.make CMakeFiles/cmTC_7d955.dir/build]
+  ignore line: [make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7d955]
+  ignore line: [/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d955.dir/link.txt --verbose=1]
+  ignore line: [/data/chenchao/anaconda2/bin/cc      -v -Wl,--verbose CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o  -o cmTC_7d955 -rdynamic  ]
+  ignore line: [Reading specs from /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/data/chenchao/anaconda2/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../lib/gcc/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d955' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7d955 /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/data/chenchao/anaconda2/bin/../lib/gcc -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. --verbose CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7d955] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [--verbose] ==> ignore
+    arg [CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  ignore line: [GNU ld (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [  Supported emulations:]
+  ignore line: [   elf_x86_64]
+  ignore line: [   elf32_x86_64]
+  ignore line: [   elf_i386]
+  ignore line: [   elf_iamcu]
+  ignore line: [   i386linux]
+  ignore line: [   elf_l1om]
+  ignore line: [   elf_k1om]
+  ignore line: [   i386pep]
+  ignore line: [   i386pe]
+  ignore line: [using internal linker script:]
+  ignore line: [==================================================]
+  ignore line: [/* Script for -z combreloc: combine and sort reloc sections */]
+  ignore line: [/* Copyright (C) 2014-2015 Free Software Foundation, Inc.]
+  ignore line: [   Copying and distribution of this script, with or without modification,]
+  ignore line: [   are permitted in any medium without royalty provided the copyright]
+  ignore line: [   notice and this notice are preserved.  */]
+  ignore line: [OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",]
+  ignore line: [	      "elf64-x86-64")]
+  ignore line: [OUTPUT_ARCH(i386:x86-64)]
+  ignore line: [ENTRY(_start)]
+    arg [=/usr/local/lib/x86_64-linux-gnu] ==> dirs [=/usr/local/lib/x86_64-linux-gnu]
+    arg [=/lib/x86_64-linux-gnu] ==> dirs [=/lib/x86_64-linux-gnu]
+    arg [=/usr/lib/x86_64-linux-gnu] ==> dirs [=/usr/lib/x86_64-linux-gnu]
+    arg [=/usr/local/lib64] ==> dirs [=/usr/local/lib64]
+    arg [=/lib64] ==> dirs [=/lib64]
+    arg [=/usr/lib64] ==> dirs [=/usr/lib64]
+    arg [=/usr/local/lib] ==> dirs [=/usr/local/lib]
+    arg [=/lib] ==> dirs [=/lib]
+    arg [=/usr/lib] ==> dirs [=/usr/lib]
+    arg [=/usr/x86_64-linux-gnu/lib64] ==> dirs [=/usr/x86_64-linux-gnu/lib64]
+    arg [=/usr/x86_64-linux-gnu/lib] ==> dirs [=/usr/x86_64-linux-gnu/lib]
+  ignore line: []
+  ignore line: [SECTIONS]
+  ignore line: [{]
+  ignore line: [  /* Read-only sections, merged into text segment: */]
+  ignore line: [  PROVIDE (__executable_start = SEGMENT_START("text-segment", 0x400000))]
+  ignore line: [ . = SEGMENT_START("text-segment", 0x400000) + SIZEOF_HEADERS]
+  ignore line: []
+  ignore line: [  .interp         : { *(.interp) }]
+  ignore line: [  .note.gnu.build-id : { *(.note.gnu.build-id) }]
+  ignore line: [  .hash           : { *(.hash) }]
+  ignore line: [  .gnu.hash       : { *(.gnu.hash) }]
+  ignore line: [  .dynsym         : { *(.dynsym) }]
+  ignore line: [  .dynstr         : { *(.dynstr) }]
+  ignore line: [  .gnu.version    : { *(.gnu.version) }]
+  ignore line: [  .gnu.version_d  : { *(.gnu.version_d) }]
+  ignore line: [  .gnu.version_r  : { *(.gnu.version_r) }]
+  ignore line: [  .rela.dyn       :]
+  ignore line: [    {]
+  ignore line: [      *(.rela.init)]
+  ignore line: [      *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)]
+  ignore line: [      *(.rela.fini)]
+  ignore line: [      *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)]
+  ignore line: [      *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)]
+  ignore line: [      *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)]
+  ignore line: [      *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)]
+  ignore line: [      *(.rela.ctors)]
+  ignore line: [      *(.rela.dtors)]
+  ignore line: [      *(.rela.got)]
+  ignore line: [      *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)]
+  ignore line: [      *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)]
+  ignore line: [      *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)]
+  ignore line: [      *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)]
+  ignore line: [      *(.rela.ifunc)]
+  ignore line: [    }]
+  ignore line: [  .rela.plt       :]
+  ignore line: [    {]
+  ignore line: [      *(.rela.plt)]
+  ignore line: [      PROVIDE_HIDDEN (__rela_iplt_start = .)]
+  ignore line: []
+  ignore line: [      *(.rela.iplt)]
+  ignore line: [      PROVIDE_HIDDEN (__rela_iplt_end = .)]
+  ignore line: []
+  ignore line: [    }]
+  ignore line: [  .init           :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*(SORT_NONE(.init)))]
+  ignore line: [  }]
+  ignore line: [  .plt            : { *(.plt) *(.iplt) }]
+  ignore line: [.plt.got        : { *(.plt.got) }]
+  ignore line: [.plt.bnd        : { *(.plt.bnd) }]
+  ignore line: [  .text           :]
+  ignore line: [  {]
+  ignore line: [    *(.text.unlikely .text.*_unlikely .text.unlikely.*)]
+  ignore line: [    *(.text.exit .text.exit.*)]
+  ignore line: [    *(.text.startup .text.startup.*)]
+  ignore line: [    *(.text.hot .text.hot.*)]
+  ignore line: [    *(.text .stub .text.* .gnu.linkonce.t.*)]
+  ignore line: [    /* .gnu.warning sections are handled specially by elf32.em.  */]
+  ignore line: [    *(.gnu.warning)]
+  ignore line: [  }]
+  ignore line: [  .fini           :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*(SORT_NONE(.fini)))]
+  ignore line: [  }]
+  ignore line: [  PROVIDE (__etext = .)]
+  ignore line: []
+  ignore line: [  PROVIDE (_etext = .)]
+  ignore line: []
+  ignore line: [  PROVIDE (etext = .)]
+  ignore line: []
+  ignore line: [  .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }]
+  ignore line: [  .rodata1        : { *(.rodata1) }]
+  ignore line: [  .eh_frame_hdr : { *(.eh_frame_hdr) *(.eh_frame_entry .eh_frame_entry.*) }]
+  ignore line: [  .eh_frame       : ONLY_IF_RO { KEEP (*(.eh_frame)) *(.eh_frame.*) }]
+  ignore line: [  .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table]
+  ignore line: [  .gcc_except_table.*) }]
+  ignore line: [  .gnu_extab   : ONLY_IF_RO { *(.gnu_extab*) }]
+  ignore line: [  /* These sections are generated by the Sun/Oracle C++ compiler.  */]
+  ignore line: [  .exception_ranges   : ONLY_IF_RO { *(.exception_ranges]
+  ignore line: [  .exception_ranges*) }]
+  ignore line: [  /* Adjust the address for the data segment.  We want to adjust up to]
+  ignore line: [     the same address within the page on the next page up.  */]
+  ignore line: [  . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))]
+  ignore line: []
+  ignore line: [  /* Exception handling  */]
+  ignore line: [  .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) *(.eh_frame.*) }]
+  ignore line: [  .gnu_extab      : ONLY_IF_RW { *(.gnu_extab) }]
+  ignore line: [  .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }]
+  ignore line: [  .exception_ranges   : ONLY_IF_RW { *(.exception_ranges .exception_ranges*) }]
+  ignore line: [  /* Thread Local Storage sections  */]
+  ignore line: [  .tdata	  : { *(.tdata .tdata.* .gnu.linkonce.td.*) }]
+  ignore line: [  .tbss		  : { *(.tbss .tbss.* .gnu.linkonce.tb.*) *(.tcommon) }]
+  ignore line: [  .preinit_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__preinit_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(.preinit_array))]
+  ignore line: [    PROVIDE_HIDDEN (__preinit_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .init_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__init_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*)))]
+  ignore line: [    KEEP (*(.init_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .ctors))]
+  ignore line: [    PROVIDE_HIDDEN (__init_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .fini_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__fini_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*)))]
+  ignore line: [    KEEP (*(.fini_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .dtors))]
+  ignore line: [    PROVIDE_HIDDEN (__fini_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .ctors          :]
+  ignore line: [  {]
+  ignore line: [    /* gcc uses crtbegin.o to find the start of]
+  ignore line: [       the constructors, so we make sure it is]
+  ignore line: [       first.  Because this is a wildcard, it]
+  ignore line: [       doesn't matter if the user does not]
+  ignore line: [       actually link against crtbegin.o]
+  ignore line: [ the]
+  ignore line: [       linker won't look for a file to match a]
+  ignore line: [       wildcard.  The wildcard also means that it]
+  ignore line: [       doesn't matter which directory crtbegin.o]
+  ignore line: [       is in.  */]
+  ignore line: [    KEEP (*crtbegin.o(.ctors))]
+  ignore line: [    KEEP (*crtbegin?.o(.ctors))]
+  ignore line: [    /* We don't want to include the .ctor section from]
+  ignore line: [       the crtend.o file until after the sorted ctors.]
+  ignore line: [       The .ctor section from the crtend file contains the]
+  ignore line: [       end of ctors marker and it must be last */]
+  ignore line: [    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .ctors))]
+  ignore line: [    KEEP (*(SORT(.ctors.*)))]
+  ignore line: [    KEEP (*(.ctors))]
+  ignore line: [  }]
+  ignore line: [  .dtors          :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*crtbegin.o(.dtors))]
+  ignore line: [    KEEP (*crtbegin?.o(.dtors))]
+  ignore line: [    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .dtors))]
+  ignore line: [    KEEP (*(SORT(.dtors.*)))]
+  ignore line: [    KEEP (*(.dtors))]
+  ignore line: [  }]
+  ignore line: [  .jcr            : { KEEP (*(.jcr)) }]
+  ignore line: [  .data.rel.ro : { *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*) *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*) }]
+  ignore line: [  .dynamic        : { *(.dynamic) }]
+  ignore line: [  .got            : { *(.got) *(.igot) }]
+  ignore line: [  . = DATA_SEGMENT_RELRO_END (SIZEOF (.got.plt) >= 24 ? 24 : 0, .)]
+  ignore line: []
+  ignore line: [  .got.plt        : { *(.got.plt)  *(.igot.plt) }]
+  ignore line: [  .data           :]
+  ignore line: [  {]
+  ignore line: [    *(.data .data.* .gnu.linkonce.d.*)]
+  ignore line: [    SORT(CONSTRUCTORS)]
+  ignore line: [  }]
+  ignore line: [  .data1          : { *(.data1) }]
+  ignore line: [  _edata = .]
+  ignore line: [ PROVIDE (edata = .)]
+  ignore line: []
+  ignore line: [  . = .]
+  ignore line: []
+  ignore line: [  __bss_start = .]
+  ignore line: []
+  ignore line: [  .bss            :]
+  ignore line: [  {]
+  ignore line: [   *(.dynbss)]
+  ignore line: [   *(.bss .bss.* .gnu.linkonce.b.*)]
+  ignore line: [   *(COMMON)]
+  ignore line: [   /* Align here to ensure that the .bss section occupies space up to]
+  ignore line: [      _end.  Align after .bss to ensure correct alignment even if the]
+  ignore line: [      .bss section disappears because there are no input sections.]
+  ignore line: [      FIXME: Why do we need it? When there is no .bss section, we don't]
+  ignore line: [      pad the .data section.  */]
+  ignore line: [   . = ALIGN(. != 0 ? 64 / 8 : 1)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .lbss   :]
+  ignore line: [  {]
+  ignore line: [    *(.dynlbss)]
+  ignore line: [    *(.lbss .lbss.* .gnu.linkonce.lb.*)]
+  ignore line: [    *(LARGE_COMMON)]
+  ignore line: [  }]
+  ignore line: [  . = ALIGN(64 / 8)]
+  ignore line: []
+  ignore line: [  . = SEGMENT_START("ldata-segment", .)]
+  ignore line: []
+  ignore line: [  .lrodata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :]
+  ignore line: [  {]
+  ignore line: [    *(.lrodata .lrodata.* .gnu.linkonce.lr.*)]
+  ignore line: [  }]
+  ignore line: [  .ldata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :]
+  ignore line: [  {]
+  ignore line: [    *(.ldata .ldata.* .gnu.linkonce.l.*)]
+  ignore line: [    . = ALIGN(. != 0 ? 64 / 8 : 1)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  . = ALIGN(64 / 8)]
+  ignore line: []
+  ignore line: [  _end = .]
+  ignore line: [ PROVIDE (end = .)]
+  ignore line: []
+  ignore line: [  . = DATA_SEGMENT_END (.)]
+  ignore line: []
+  ignore line: [  /* Stabs debugging sections.  */]
+  ignore line: [  .stab          0 : { *(.stab) }]
+  ignore line: [  .stabstr       0 : { *(.stabstr) }]
+  ignore line: [  .stab.excl     0 : { *(.stab.excl) }]
+  ignore line: [  .stab.exclstr  0 : { *(.stab.exclstr) }]
+  ignore line: [  .stab.index    0 : { *(.stab.index) }]
+  ignore line: [  .stab.indexstr 0 : { *(.stab.indexstr) }]
+  ignore line: [  .comment       0 : { *(.comment) }]
+  ignore line: [  /* DWARF debug sections.]
+  ignore line: [     Symbols in the DWARF debugging sections are relative to the beginning]
+  ignore line: [     of the section so we begin them at 0.  */]
+  ignore line: [  /* DWARF 1 */]
+  ignore line: [  .debug          0 : { *(.debug) }]
+  ignore line: [  .line           0 : { *(.line) }]
+  ignore line: [  /* GNU DWARF 1 extensions */]
+  ignore line: [  .debug_srcinfo  0 : { *(.debug_srcinfo) }]
+  ignore line: [  .debug_sfnames  0 : { *(.debug_sfnames) }]
+  ignore line: [  /* DWARF 1.1 and DWARF 2 */]
+  ignore line: [  .debug_aranges  0 : { *(.debug_aranges) }]
+  ignore line: [  .debug_pubnames 0 : { *(.debug_pubnames) }]
+  ignore line: [  /* DWARF 2 */]
+  ignore line: [  .debug_info     0 : { *(.debug_info .gnu.linkonce.wi.*) }]
+  ignore line: [  .debug_abbrev   0 : { *(.debug_abbrev) }]
+  ignore line: [  .debug_line     0 : { *(.debug_line .debug_line.* .debug_line_end ) }]
+  ignore line: [  .debug_frame    0 : { *(.debug_frame) }]
+  ignore line: [  .debug_str      0 : { *(.debug_str) }]
+  ignore line: [  .debug_loc      0 : { *(.debug_loc) }]
+  ignore line: [  .debug_macinfo  0 : { *(.debug_macinfo) }]
+  ignore line: [  /* SGI/MIPS DWARF 2 extensions */]
+  ignore line: [  .debug_weaknames 0 : { *(.debug_weaknames) }]
+  ignore line: [  .debug_funcnames 0 : { *(.debug_funcnames) }]
+  ignore line: [  .debug_typenames 0 : { *(.debug_typenames) }]
+  ignore line: [  .debug_varnames  0 : { *(.debug_varnames) }]
+  ignore line: [  /* DWARF 3 */]
+  ignore line: [  .debug_pubtypes 0 : { *(.debug_pubtypes) }]
+  ignore line: [  .debug_ranges   0 : { *(.debug_ranges) }]
+  ignore line: [  /* DWARF Extension.  */]
+  ignore line: [  .debug_macro    0 : { *(.debug_macro) }]
+  ignore line: [  .gnu.attributes 0 : { KEEP (*(.gnu.attributes)) }]
+  ignore line: [  /DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) }]
+  ignore line: [}]
+  ignore line: []
+  ignore line: []
+  ignore line: [==================================================]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o]
+  ignore line: [attempt to open CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o succeeded]
+  ignore line: [CMakeFiles/cmTC_7d955.dir/CMakeCCompilerABI.c.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded]
+  ignore line: [-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.a failed]
+  ignore line: [attempt to open /lib/../lib/libc.so failed]
+  ignore line: [attempt to open /lib/../lib/libc.a failed]
+  ignore line: [attempt to open /usr/lib/../lib/libc.so failed]
+  ignore line: [attempt to open /usr/lib/../lib/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.a failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libc.so failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libc.a failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libc.so failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libc.a failed]
+  ignore line: [attempt to open //usr/lib/x86_64-linux-gnu/libc.so succeeded]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libc.so]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libc.so]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/libc.so.6 succeeded]
+  ignore line: [/lib/x86_64-linux-gnu/libc.so.6]
+  ignore line: [attempt to open /usr/lib/x86_64-linux-gnu/libc_nonshared.a succeeded]
+  ignore line: [(/usr/lib/x86_64-linux-gnu/libc_nonshared.a)elf-init.oS]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 succeeded]
+  link line: [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    arg [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2] ==> ignore
+  link line: [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    arg [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2] ==> ignore
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded]
+  ignore line: [-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+  link line: [ld-linux-x86-64.so.2 needed by /lib/x86_64-linux-gnu/libc.so.6]
+    arg [ld-linux-x86-64.so.2] ==> ignore
+    arg [needed] ==> ignore
+    arg [by] ==> ignore
+    arg [/lib/x86_64-linux-gnu/libc.so.6] ==> ignore
+  ignore line: [found ld-linux-x86-64.so.2 at /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  ignore line: [make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp']
+  ignore line: []
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/data/chenchao/anaconda2/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc] ==> [/data/chenchao/anaconda2/lib/gcc]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/data/chenchao/anaconda2/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/data/chenchao/anaconda2/lib]
+  collapse linker search dirs dir [=/usr/local/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/usr/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/usr/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/usr/local/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib64]
+  collapse linker search dirs dir [=/lib64] ==> [/data/chenchao/xRobot/caffe/=/lib64]
+  collapse linker search dirs dir [=/usr/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/lib64]
+  collapse linker search dirs dir [=/usr/local/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib]
+  collapse linker search dirs dir [=/lib] ==> [/data/chenchao/xRobot/caffe/=/lib]
+  collapse linker search dirs dir [=/usr/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/lib]
+  collapse linker search dirs dir [=/usr/x86_64-linux-gnu/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib64]
+  collapse linker search dirs dir [=/usr/x86_64-linux-gnu/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib]
+  implicit libs: [c]
+  implicit dirs: [/data/chenchao/anaconda2/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/data/chenchao/anaconda2/lib/gcc;/data/chenchao/anaconda2/lib;/lib;/usr/lib]
+  implicit linker search dirs: [/data/chenchao/xRobot/caffe/=/usr/local/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/usr/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/usr/local/lib64;/data/chenchao/xRobot/caffe/=/lib64;/data/chenchao/xRobot/caffe/=/usr/lib64;/data/chenchao/xRobot/caffe/=/usr/local/lib;/data/chenchao/xRobot/caffe/=/lib;/data/chenchao/xRobot/caffe/=/usr/lib;/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib64;/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48afc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48afc.dir/build.make CMakeFiles/cmTC_48afc.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48afc.dir/feature_tests.c.o
+/data/chenchao/anaconda2/bin/cc    -std=c11 -o CMakeFiles/cmTC_48afc.dir/feature_tests.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48afc
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48afc.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_48afc.dir/feature_tests.c.o  -o cmTC_48afc -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b49e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b49e.dir/build.make CMakeFiles/cmTC_0b49e.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b49e.dir/feature_tests.c.o
+/data/chenchao/anaconda2/bin/cc    -std=c99 -o CMakeFiles/cmTC_0b49e.dir/feature_tests.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0b49e
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b49e.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_0b49e.dir/feature_tests.c.o  -o cmTC_0b49e -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfa57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfa57.dir/build.make CMakeFiles/cmTC_bfa57.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfa57.dir/feature_tests.c.o
+/data/chenchao/anaconda2/bin/cc    -std=c90 -o CMakeFiles/cmTC_bfa57.dir/feature_tests.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bfa57
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfa57.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_bfa57.dir/feature_tests.c.o  -o cmTC_bfa57 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1734/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1734.dir/build.make CMakeFiles/cmTC_a1734.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1734.dir/testCXXCompiler.cxx.o
+/data/chenchao/anaconda2/bin/c++      -o CMakeFiles/cmTC_a1734.dir/testCXXCompiler.cxx.o -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a1734
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1734.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/c++        CMakeFiles/cmTC_a1734.dir/testCXXCompiler.cxx.o  -o cmTC_a1734 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f418c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f418c.dir/build.make CMakeFiles/cmTC_f418c.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o
+/data/chenchao/anaconda2/bin/c++      -o CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f418c
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f418c.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/c++       -v -Wl,--verbose CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f418c -rdynamic  
+Reading specs from /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs
+COLLECT_GCC=/data/chenchao/anaconda2/bin/c++
+COLLECT_LTO_WRAPPER=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../libexec/gcc/
+LIBRARY_PATH=/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../lib/gcc/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f418c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f418c /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/data/chenchao/anaconda2/bin/../lib/gcc -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. --verbose CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf_x86_64
+   elf32_x86_64
+   elf_i386
+   elf_iamcu
+   i386linux
+   elf_l1om
+   elf_k1om
+   i386pep
+   i386pe
+using internal linker script:
+==================================================
+/* Script for -z combreloc: combine and sort reloc sections */
+/* Copyright (C) 2014-2015 Free Software Foundation, Inc.
+   Copying and distribution of this script, with or without modification,
+   are permitted in any medium without royalty provided the copyright
+   notice and this notice are preserved.  */
+OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",
+	      "elf64-x86-64")
+OUTPUT_ARCH(i386:x86-64)
+ENTRY(_start)
+SEARCH_DIR("=/usr/local/lib/x86_64-linux-gnu"); SEARCH_DIR("=/lib/x86_64-linux-gnu"); SEARCH_DIR("=/usr/lib/x86_64-linux-gnu"); SEARCH_DIR("=/usr/local/lib64"); SEARCH_DIR("=/lib64"); SEARCH_DIR("=/usr/lib64"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib"); SEARCH_DIR("=/usr/x86_64-linux-gnu/lib64"); SEARCH_DIR("=/usr/x86_64-linux-gnu/lib");
+SECTIONS
+{
+  /* Read-only sections, merged into text segment: */
+  PROVIDE (__executable_start = SEGMENT_START("text-segment", 0x400000)); . = SEGMENT_START("text-segment", 0x400000) + SIZEOF_HEADERS;
+  .interp         : { *(.interp) }
+  .note.gnu.build-id : { *(.note.gnu.build-id) }
+  .hash           : { *(.hash) }
+  .gnu.hash       : { *(.gnu.hash) }
+  .dynsym         : { *(.dynsym) }
+  .dynstr         : { *(.dynstr) }
+  .gnu.version    : { *(.gnu.version) }
+  .gnu.version_d  : { *(.gnu.version_d) }
+  .gnu.version_r  : { *(.gnu.version_r) }
+  .rela.dyn       :
+    {
+      *(.rela.init)
+      *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+      *(.rela.fini)
+      *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+      *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+      *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+      *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+      *(.rela.ctors)
+      *(.rela.dtors)
+      *(.rela.got)
+      *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+      *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+      *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+      *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+      *(.rela.ifunc)
+    }
+  .rela.plt       :
+    {
+      *(.rela.plt)
+      PROVIDE_HIDDEN (__rela_iplt_start = .);
+      *(.rela.iplt)
+      PROVIDE_HIDDEN (__rela_iplt_end = .);
+    }
+  .init           :
+  {
+    KEEP (*(SORT_NONE(.init)))
+  }
+  .plt            : { *(.plt) *(.iplt) }
+.plt.got        : { *(.plt.got) }
+.plt.bnd        : { *(.plt.bnd) }
+  .text           :
+  {
+    *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+    *(.text.exit .text.exit.*)
+    *(.text.startup .text.startup.*)
+    *(.text.hot .text.hot.*)
+    *(.text .stub .text.* .gnu.linkonce.t.*)
+    /* .gnu.warning sections are handled specially by elf32.em.  */
+    *(.gnu.warning)
+  }
+  .fini           :
+  {
+    KEEP (*(SORT_NONE(.fini)))
+  }
+  PROVIDE (__etext = .);
+  PROVIDE (_etext = .);
+  PROVIDE (etext = .);
+  .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }
+  .rodata1        : { *(.rodata1) }
+  .eh_frame_hdr : { *(.eh_frame_hdr) *(.eh_frame_entry .eh_frame_entry.*) }
+  .eh_frame       : ONLY_IF_RO { KEEP (*(.eh_frame)) *(.eh_frame.*) }
+  .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table
+  .gcc_except_table.*) }
+  .gnu_extab   : ONLY_IF_RO { *(.gnu_extab*) }
+  /* These sections are generated by the Sun/Oracle C++ compiler.  */
+  .exception_ranges   : ONLY_IF_RO { *(.exception_ranges
+  .exception_ranges*) }
+  /* Adjust the address for the data segment.  We want to adjust up to
+     the same address within the page on the next page up.  */
+  . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE));
+  /* Exception handling  */
+  .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) *(.eh_frame.*) }
+  .gnu_extab      : ONLY_IF_RW { *(.gnu_extab) }
+  .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }
+  .exception_ranges   : ONLY_IF_RW { *(.exception_ranges .exception_ranges*) }
+  /* Thread Local Storage sections  */
+  .tdata	  : { *(.tdata .tdata.* .gnu.linkonce.td.*) }
+  .tbss		  : { *(.tbss .tbss.* .gnu.linkonce.tb.*) *(.tcommon) }
+  .preinit_array     :
+  {
+    PROVIDE_HIDDEN (__preinit_array_start = .);
+    KEEP (*(.preinit_array))
+    PROVIDE_HIDDEN (__preinit_array_end = .);
+  }
+  .init_array     :
+  {
+    PROVIDE_HIDDEN (__init_array_start = .);
+    KEEP (*(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*)))
+    KEEP (*(.init_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .ctors))
+    PROVIDE_HIDDEN (__init_array_end = .);
+  }
+  .fini_array     :
+  {
+    PROVIDE_HIDDEN (__fini_array_start = .);
+    KEEP (*(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*)))
+    KEEP (*(.fini_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .dtors))
+    PROVIDE_HIDDEN (__fini_array_end = .);
+  }
+  .ctors          :
+  {
+    /* gcc uses crtbegin.o to find the start of
+       the constructors, so we make sure it is
+       first.  Because this is a wildcard, it
+       doesn't matter if the user does not
+       actually link against crtbegin.o; the
+       linker won't look for a file to match a
+       wildcard.  The wildcard also means that it
+       doesn't matter which directory crtbegin.o
+       is in.  */
+    KEEP (*crtbegin.o(.ctors))
+    KEEP (*crtbegin?.o(.ctors))
+    /* We don't want to include the .ctor section from
+       the crtend.o file until after the sorted ctors.
+       The .ctor section from the crtend file contains the
+       end of ctors marker and it must be last */
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .ctors))
+    KEEP (*(SORT(.ctors.*)))
+    KEEP (*(.ctors))
+  }
+  .dtors          :
+  {
+    KEEP (*crtbegin.o(.dtors))
+    KEEP (*crtbegin?.o(.dtors))
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .dtors))
+    KEEP (*(SORT(.dtors.*)))
+    KEEP (*(.dtors))
+  }
+  .jcr            : { KEEP (*(.jcr)) }
+  .data.rel.ro : { *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*) *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*) }
+  .dynamic        : { *(.dynamic) }
+  .got            : { *(.got) *(.igot) }
+  . = DATA_SEGMENT_RELRO_END (SIZEOF (.got.plt) >= 24 ? 24 : 0, .);
+  .got.plt        : { *(.got.plt)  *(.igot.plt) }
+  .data           :
+  {
+    *(.data .data.* .gnu.linkonce.d.*)
+    SORT(CONSTRUCTORS)
+  }
+  .data1          : { *(.data1) }
+  _edata = .; PROVIDE (edata = .);
+  . = .;
+  __bss_start = .;
+  .bss            :
+  {
+   *(.dynbss)
+   *(.bss .bss.* .gnu.linkonce.b.*)
+   *(COMMON)
+   /* Align here to ensure that the .bss section occupies space up to
+      _end.  Align after .bss to ensure correct alignment even if the
+      .bss section disappears because there are no input sections.
+      FIXME: Why do we need it? When there is no .bss section, we don't
+      pad the .data section.  */
+   . = ALIGN(. != 0 ? 64 / 8 : 1);
+  }
+  .lbss   :
+  {
+    *(.dynlbss)
+    *(.lbss .lbss.* .gnu.linkonce.lb.*)
+    *(LARGE_COMMON)
+  }
+  . = ALIGN(64 / 8);
+  . = SEGMENT_START("ldata-segment", .);
+  .lrodata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :
+  {
+    *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+  }
+  .ldata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :
+  {
+    *(.ldata .ldata.* .gnu.linkonce.l.*)
+    . = ALIGN(. != 0 ? 64 / 8 : 1);
+  }
+  . = ALIGN(64 / 8);
+  _end = .; PROVIDE (end = .);
+  . = DATA_SEGMENT_END (.);
+  /* Stabs debugging sections.  */
+  .stab          0 : { *(.stab) }
+  .stabstr       0 : { *(.stabstr) }
+  .stab.excl     0 : { *(.stab.excl) }
+  .stab.exclstr  0 : { *(.stab.exclstr) }
+  .stab.index    0 : { *(.stab.index) }
+  .stab.indexstr 0 : { *(.stab.indexstr) }
+  .comment       0 : { *(.comment) }
+  /* DWARF debug sections.
+     Symbols in the DWARF debugging sections are relative to the beginning
+     of the section so we begin them at 0.  */
+  /* DWARF 1 */
+  .debug          0 : { *(.debug) }
+  .line           0 : { *(.line) }
+  /* GNU DWARF 1 extensions */
+  .debug_srcinfo  0 : { *(.debug_srcinfo) }
+  .debug_sfnames  0 : { *(.debug_sfnames) }
+  /* DWARF 1.1 and DWARF 2 */
+  .debug_aranges  0 : { *(.debug_aranges) }
+  .debug_pubnames 0 : { *(.debug_pubnames) }
+  /* DWARF 2 */
+  .debug_info     0 : { *(.debug_info .gnu.linkonce.wi.*) }
+  .debug_abbrev   0 : { *(.debug_abbrev) }
+  .debug_line     0 : { *(.debug_line .debug_line.* .debug_line_end ) }
+  .debug_frame    0 : { *(.debug_frame) }
+  .debug_str      0 : { *(.debug_str) }
+  .debug_loc      0 : { *(.debug_loc) }
+  .debug_macinfo  0 : { *(.debug_macinfo) }
+  /* SGI/MIPS DWARF 2 extensions */
+  .debug_weaknames 0 : { *(.debug_weaknames) }
+  .debug_funcnames 0 : { *(.debug_funcnames) }
+  .debug_typenames 0 : { *(.debug_typenames) }
+  .debug_varnames  0 : { *(.debug_varnames) }
+  /* DWARF 3 */
+  .debug_pubtypes 0 : { *(.debug_pubtypes) }
+  .debug_ranges   0 : { *(.debug_ranges) }
+  /* DWARF Extension.  */
+  .debug_macro    0 : { *(.debug_macro) }
+  .gnu.attributes 0 : { KEEP (*(.gnu.attributes)) }
+  /DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) }
+}
+
+
+==================================================
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o
+attempt to open CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o succeeded
+CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libstdc++.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libstdc++.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libstdc++.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libstdc++.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so succeeded
+-lstdc++ (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so)
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libm.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libm.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libm.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libm.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libm.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libm.a failed
+attempt to open /lib/../lib/libm.so failed
+attempt to open /lib/../lib/libm.a failed
+attempt to open /usr/lib/../lib/libm.so failed
+attempt to open /usr/lib/../lib/libm.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libm.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libm.a failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libm.so failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libm.a failed
+attempt to open //lib/x86_64-linux-gnu/libm.so failed
+attempt to open //lib/x86_64-linux-gnu/libm.a failed
+attempt to open //usr/lib/x86_64-linux-gnu/libm.so succeeded
+opened script file //usr/lib/x86_64-linux-gnu/libm.so
+opened script file //usr/lib/x86_64-linux-gnu/libm.so
+attempt to open /lib/x86_64-linux-gnu/libm.so.6 succeeded
+/lib/x86_64-linux-gnu/libm.so.6
+attempt to open /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a succeeded
+attempt to open /lib/x86_64-linux-gnu/libmvec.so.1 succeeded
+/lib/x86_64-linux-gnu/libmvec.so.1
+/lib/x86_64-linux-gnu/libmvec.so.1
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded
+-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.a failed
+attempt to open /lib/../lib/libc.so failed
+attempt to open /lib/../lib/libc.a failed
+attempt to open /usr/lib/../lib/libc.so failed
+attempt to open /usr/lib/../lib/libc.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.a failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libc.so failed
+attempt to open //usr/local/lib/x86_64-linux-gnu/libc.a failed
+attempt to open //lib/x86_64-linux-gnu/libc.so failed
+attempt to open //lib/x86_64-linux-gnu/libc.a failed
+attempt to open //usr/lib/x86_64-linux-gnu/libc.so succeeded
+opened script file //usr/lib/x86_64-linux-gnu/libc.so
+opened script file //usr/lib/x86_64-linux-gnu/libc.so
+attempt to open /lib/x86_64-linux-gnu/libc.so.6 succeeded
+/lib/x86_64-linux-gnu/libc.so.6
+attempt to open /usr/lib/x86_64-linux-gnu/libc_nonshared.a succeeded
+(/usr/lib/x86_64-linux-gnu/libc_nonshared.a)elf-init.oS
+attempt to open /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 succeeded
+/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded
+-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o
+attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o succeeded
+/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o
+ld-linux-x86-64.so.2 needed by /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so
+found ld-linux-x86-64.so.2 at /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f418c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f418c.dir/build.make CMakeFiles/cmTC_f418c.dir/build]
+  ignore line: [make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/data/chenchao/anaconda2/bin/c++      -o CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f418c]
+  ignore line: [/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f418c.dir/link.txt --verbose=1]
+  ignore line: [/data/chenchao/anaconda2/bin/c++       -v -Wl,--verbose CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f418c -rdynamic  ]
+  ignore line: [Reading specs from /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/specs]
+  ignore line: [COLLECT_GCC=/data/chenchao/anaconda2/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-gxx-include-dir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/gcc/include/c++ --bindir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin --datarootdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share --libdir=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib --with-gmp=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpfr=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-mpc=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-isl=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --with-cloog=/home/ray/mc-x64-2.7/conda-bld/gcc_1479223211463/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/data/chenchao/anaconda2/bin/../lib/gcc/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f418c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f418c /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/data/chenchao/anaconda2/bin/../lib/gcc -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. --verbose CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+    arg [/data/chenchao/anaconda2/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f418c] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [--verbose] ==> ignore
+    arg [CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o] ==> ignore
+  ignore line: [GNU ld (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [  Supported emulations:]
+  ignore line: [   elf_x86_64]
+  ignore line: [   elf32_x86_64]
+  ignore line: [   elf_i386]
+  ignore line: [   elf_iamcu]
+  ignore line: [   i386linux]
+  ignore line: [   elf_l1om]
+  ignore line: [   elf_k1om]
+  ignore line: [   i386pep]
+  ignore line: [   i386pe]
+  ignore line: [using internal linker script:]
+  ignore line: [==================================================]
+  ignore line: [/* Script for -z combreloc: combine and sort reloc sections */]
+  ignore line: [/* Copyright (C) 2014-2015 Free Software Foundation, Inc.]
+  ignore line: [   Copying and distribution of this script, with or without modification,]
+  ignore line: [   are permitted in any medium without royalty provided the copyright]
+  ignore line: [   notice and this notice are preserved.  */]
+  ignore line: [OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",]
+  ignore line: [	      "elf64-x86-64")]
+  ignore line: [OUTPUT_ARCH(i386:x86-64)]
+  ignore line: [ENTRY(_start)]
+    arg [=/usr/local/lib/x86_64-linux-gnu] ==> dirs [=/usr/local/lib/x86_64-linux-gnu]
+    arg [=/lib/x86_64-linux-gnu] ==> dirs [=/lib/x86_64-linux-gnu]
+    arg [=/usr/lib/x86_64-linux-gnu] ==> dirs [=/usr/lib/x86_64-linux-gnu]
+    arg [=/usr/local/lib64] ==> dirs [=/usr/local/lib64]
+    arg [=/lib64] ==> dirs [=/lib64]
+    arg [=/usr/lib64] ==> dirs [=/usr/lib64]
+    arg [=/usr/local/lib] ==> dirs [=/usr/local/lib]
+    arg [=/lib] ==> dirs [=/lib]
+    arg [=/usr/lib] ==> dirs [=/usr/lib]
+    arg [=/usr/x86_64-linux-gnu/lib64] ==> dirs [=/usr/x86_64-linux-gnu/lib64]
+    arg [=/usr/x86_64-linux-gnu/lib] ==> dirs [=/usr/x86_64-linux-gnu/lib]
+  ignore line: []
+  ignore line: [SECTIONS]
+  ignore line: [{]
+  ignore line: [  /* Read-only sections, merged into text segment: */]
+  ignore line: [  PROVIDE (__executable_start = SEGMENT_START("text-segment", 0x400000))]
+  ignore line: [ . = SEGMENT_START("text-segment", 0x400000) + SIZEOF_HEADERS]
+  ignore line: []
+  ignore line: [  .interp         : { *(.interp) }]
+  ignore line: [  .note.gnu.build-id : { *(.note.gnu.build-id) }]
+  ignore line: [  .hash           : { *(.hash) }]
+  ignore line: [  .gnu.hash       : { *(.gnu.hash) }]
+  ignore line: [  .dynsym         : { *(.dynsym) }]
+  ignore line: [  .dynstr         : { *(.dynstr) }]
+  ignore line: [  .gnu.version    : { *(.gnu.version) }]
+  ignore line: [  .gnu.version_d  : { *(.gnu.version_d) }]
+  ignore line: [  .gnu.version_r  : { *(.gnu.version_r) }]
+  ignore line: [  .rela.dyn       :]
+  ignore line: [    {]
+  ignore line: [      *(.rela.init)]
+  ignore line: [      *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)]
+  ignore line: [      *(.rela.fini)]
+  ignore line: [      *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)]
+  ignore line: [      *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)]
+  ignore line: [      *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)]
+  ignore line: [      *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)]
+  ignore line: [      *(.rela.ctors)]
+  ignore line: [      *(.rela.dtors)]
+  ignore line: [      *(.rela.got)]
+  ignore line: [      *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)]
+  ignore line: [      *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)]
+  ignore line: [      *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)]
+  ignore line: [      *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)]
+  ignore line: [      *(.rela.ifunc)]
+  ignore line: [    }]
+  ignore line: [  .rela.plt       :]
+  ignore line: [    {]
+  ignore line: [      *(.rela.plt)]
+  ignore line: [      PROVIDE_HIDDEN (__rela_iplt_start = .)]
+  ignore line: []
+  ignore line: [      *(.rela.iplt)]
+  ignore line: [      PROVIDE_HIDDEN (__rela_iplt_end = .)]
+  ignore line: []
+  ignore line: [    }]
+  ignore line: [  .init           :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*(SORT_NONE(.init)))]
+  ignore line: [  }]
+  ignore line: [  .plt            : { *(.plt) *(.iplt) }]
+  ignore line: [.plt.got        : { *(.plt.got) }]
+  ignore line: [.plt.bnd        : { *(.plt.bnd) }]
+  ignore line: [  .text           :]
+  ignore line: [  {]
+  ignore line: [    *(.text.unlikely .text.*_unlikely .text.unlikely.*)]
+  ignore line: [    *(.text.exit .text.exit.*)]
+  ignore line: [    *(.text.startup .text.startup.*)]
+  ignore line: [    *(.text.hot .text.hot.*)]
+  ignore line: [    *(.text .stub .text.* .gnu.linkonce.t.*)]
+  ignore line: [    /* .gnu.warning sections are handled specially by elf32.em.  */]
+  ignore line: [    *(.gnu.warning)]
+  ignore line: [  }]
+  ignore line: [  .fini           :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*(SORT_NONE(.fini)))]
+  ignore line: [  }]
+  ignore line: [  PROVIDE (__etext = .)]
+  ignore line: []
+  ignore line: [  PROVIDE (_etext = .)]
+  ignore line: []
+  ignore line: [  PROVIDE (etext = .)]
+  ignore line: []
+  ignore line: [  .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }]
+  ignore line: [  .rodata1        : { *(.rodata1) }]
+  ignore line: [  .eh_frame_hdr : { *(.eh_frame_hdr) *(.eh_frame_entry .eh_frame_entry.*) }]
+  ignore line: [  .eh_frame       : ONLY_IF_RO { KEEP (*(.eh_frame)) *(.eh_frame.*) }]
+  ignore line: [  .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table]
+  ignore line: [  .gcc_except_table.*) }]
+  ignore line: [  .gnu_extab   : ONLY_IF_RO { *(.gnu_extab*) }]
+  ignore line: [  /* These sections are generated by the Sun/Oracle C++ compiler.  */]
+  ignore line: [  .exception_ranges   : ONLY_IF_RO { *(.exception_ranges]
+  ignore line: [  .exception_ranges*) }]
+  ignore line: [  /* Adjust the address for the data segment.  We want to adjust up to]
+  ignore line: [     the same address within the page on the next page up.  */]
+  ignore line: [  . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))]
+  ignore line: []
+  ignore line: [  /* Exception handling  */]
+  ignore line: [  .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) *(.eh_frame.*) }]
+  ignore line: [  .gnu_extab      : ONLY_IF_RW { *(.gnu_extab) }]
+  ignore line: [  .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }]
+  ignore line: [  .exception_ranges   : ONLY_IF_RW { *(.exception_ranges .exception_ranges*) }]
+  ignore line: [  /* Thread Local Storage sections  */]
+  ignore line: [  .tdata	  : { *(.tdata .tdata.* .gnu.linkonce.td.*) }]
+  ignore line: [  .tbss		  : { *(.tbss .tbss.* .gnu.linkonce.tb.*) *(.tcommon) }]
+  ignore line: [  .preinit_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__preinit_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(.preinit_array))]
+  ignore line: [    PROVIDE_HIDDEN (__preinit_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .init_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__init_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*)))]
+  ignore line: [    KEEP (*(.init_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .ctors))]
+  ignore line: [    PROVIDE_HIDDEN (__init_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .fini_array     :]
+  ignore line: [  {]
+  ignore line: [    PROVIDE_HIDDEN (__fini_array_start = .)]
+  ignore line: []
+  ignore line: [    KEEP (*(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*)))]
+  ignore line: [    KEEP (*(.fini_array EXCLUDE_FILE (*crtbegin.o *crtbegin?.o *crtend.o *crtend?.o ) .dtors))]
+  ignore line: [    PROVIDE_HIDDEN (__fini_array_end = .)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .ctors          :]
+  ignore line: [  {]
+  ignore line: [    /* gcc uses crtbegin.o to find the start of]
+  ignore line: [       the constructors, so we make sure it is]
+  ignore line: [       first.  Because this is a wildcard, it]
+  ignore line: [       doesn't matter if the user does not]
+  ignore line: [       actually link against crtbegin.o]
+  ignore line: [ the]
+  ignore line: [       linker won't look for a file to match a]
+  ignore line: [       wildcard.  The wildcard also means that it]
+  ignore line: [       doesn't matter which directory crtbegin.o]
+  ignore line: [       is in.  */]
+  ignore line: [    KEEP (*crtbegin.o(.ctors))]
+  ignore line: [    KEEP (*crtbegin?.o(.ctors))]
+  ignore line: [    /* We don't want to include the .ctor section from]
+  ignore line: [       the crtend.o file until after the sorted ctors.]
+  ignore line: [       The .ctor section from the crtend file contains the]
+  ignore line: [       end of ctors marker and it must be last */]
+  ignore line: [    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .ctors))]
+  ignore line: [    KEEP (*(SORT(.ctors.*)))]
+  ignore line: [    KEEP (*(.ctors))]
+  ignore line: [  }]
+  ignore line: [  .dtors          :]
+  ignore line: [  {]
+  ignore line: [    KEEP (*crtbegin.o(.dtors))]
+  ignore line: [    KEEP (*crtbegin?.o(.dtors))]
+  ignore line: [    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .dtors))]
+  ignore line: [    KEEP (*(SORT(.dtors.*)))]
+  ignore line: [    KEEP (*(.dtors))]
+  ignore line: [  }]
+  ignore line: [  .jcr            : { KEEP (*(.jcr)) }]
+  ignore line: [  .data.rel.ro : { *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*) *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*) }]
+  ignore line: [  .dynamic        : { *(.dynamic) }]
+  ignore line: [  .got            : { *(.got) *(.igot) }]
+  ignore line: [  . = DATA_SEGMENT_RELRO_END (SIZEOF (.got.plt) >= 24 ? 24 : 0, .)]
+  ignore line: []
+  ignore line: [  .got.plt        : { *(.got.plt)  *(.igot.plt) }]
+  ignore line: [  .data           :]
+  ignore line: [  {]
+  ignore line: [    *(.data .data.* .gnu.linkonce.d.*)]
+  ignore line: [    SORT(CONSTRUCTORS)]
+  ignore line: [  }]
+  ignore line: [  .data1          : { *(.data1) }]
+  ignore line: [  _edata = .]
+  ignore line: [ PROVIDE (edata = .)]
+  ignore line: []
+  ignore line: [  . = .]
+  ignore line: []
+  ignore line: [  __bss_start = .]
+  ignore line: []
+  ignore line: [  .bss            :]
+  ignore line: [  {]
+  ignore line: [   *(.dynbss)]
+  ignore line: [   *(.bss .bss.* .gnu.linkonce.b.*)]
+  ignore line: [   *(COMMON)]
+  ignore line: [   /* Align here to ensure that the .bss section occupies space up to]
+  ignore line: [      _end.  Align after .bss to ensure correct alignment even if the]
+  ignore line: [      .bss section disappears because there are no input sections.]
+  ignore line: [      FIXME: Why do we need it? When there is no .bss section, we don't]
+  ignore line: [      pad the .data section.  */]
+  ignore line: [   . = ALIGN(. != 0 ? 64 / 8 : 1)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  .lbss   :]
+  ignore line: [  {]
+  ignore line: [    *(.dynlbss)]
+  ignore line: [    *(.lbss .lbss.* .gnu.linkonce.lb.*)]
+  ignore line: [    *(LARGE_COMMON)]
+  ignore line: [  }]
+  ignore line: [  . = ALIGN(64 / 8)]
+  ignore line: []
+  ignore line: [  . = SEGMENT_START("ldata-segment", .)]
+  ignore line: []
+  ignore line: [  .lrodata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :]
+  ignore line: [  {]
+  ignore line: [    *(.lrodata .lrodata.* .gnu.linkonce.lr.*)]
+  ignore line: [  }]
+  ignore line: [  .ldata   ALIGN(CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 1)) :]
+  ignore line: [  {]
+  ignore line: [    *(.ldata .ldata.* .gnu.linkonce.l.*)]
+  ignore line: [    . = ALIGN(. != 0 ? 64 / 8 : 1)]
+  ignore line: []
+  ignore line: [  }]
+  ignore line: [  . = ALIGN(64 / 8)]
+  ignore line: []
+  ignore line: [  _end = .]
+  ignore line: [ PROVIDE (end = .)]
+  ignore line: []
+  ignore line: [  . = DATA_SEGMENT_END (.)]
+  ignore line: []
+  ignore line: [  /* Stabs debugging sections.  */]
+  ignore line: [  .stab          0 : { *(.stab) }]
+  ignore line: [  .stabstr       0 : { *(.stabstr) }]
+  ignore line: [  .stab.excl     0 : { *(.stab.excl) }]
+  ignore line: [  .stab.exclstr  0 : { *(.stab.exclstr) }]
+  ignore line: [  .stab.index    0 : { *(.stab.index) }]
+  ignore line: [  .stab.indexstr 0 : { *(.stab.indexstr) }]
+  ignore line: [  .comment       0 : { *(.comment) }]
+  ignore line: [  /* DWARF debug sections.]
+  ignore line: [     Symbols in the DWARF debugging sections are relative to the beginning]
+  ignore line: [     of the section so we begin them at 0.  */]
+  ignore line: [  /* DWARF 1 */]
+  ignore line: [  .debug          0 : { *(.debug) }]
+  ignore line: [  .line           0 : { *(.line) }]
+  ignore line: [  /* GNU DWARF 1 extensions */]
+  ignore line: [  .debug_srcinfo  0 : { *(.debug_srcinfo) }]
+  ignore line: [  .debug_sfnames  0 : { *(.debug_sfnames) }]
+  ignore line: [  /* DWARF 1.1 and DWARF 2 */]
+  ignore line: [  .debug_aranges  0 : { *(.debug_aranges) }]
+  ignore line: [  .debug_pubnames 0 : { *(.debug_pubnames) }]
+  ignore line: [  /* DWARF 2 */]
+  ignore line: [  .debug_info     0 : { *(.debug_info .gnu.linkonce.wi.*) }]
+  ignore line: [  .debug_abbrev   0 : { *(.debug_abbrev) }]
+  ignore line: [  .debug_line     0 : { *(.debug_line .debug_line.* .debug_line_end ) }]
+  ignore line: [  .debug_frame    0 : { *(.debug_frame) }]
+  ignore line: [  .debug_str      0 : { *(.debug_str) }]
+  ignore line: [  .debug_loc      0 : { *(.debug_loc) }]
+  ignore line: [  .debug_macinfo  0 : { *(.debug_macinfo) }]
+  ignore line: [  /* SGI/MIPS DWARF 2 extensions */]
+  ignore line: [  .debug_weaknames 0 : { *(.debug_weaknames) }]
+  ignore line: [  .debug_funcnames 0 : { *(.debug_funcnames) }]
+  ignore line: [  .debug_typenames 0 : { *(.debug_typenames) }]
+  ignore line: [  .debug_varnames  0 : { *(.debug_varnames) }]
+  ignore line: [  /* DWARF 3 */]
+  ignore line: [  .debug_pubtypes 0 : { *(.debug_pubtypes) }]
+  ignore line: [  .debug_ranges   0 : { *(.debug_ranges) }]
+  ignore line: [  /* DWARF Extension.  */]
+  ignore line: [  .debug_macro    0 : { *(.debug_macro) }]
+  ignore line: [  .gnu.attributes 0 : { KEEP (*(.gnu.attributes)) }]
+  ignore line: [  /DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) }]
+  ignore line: [}]
+  ignore line: []
+  ignore line: []
+  ignore line: [==================================================]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crt1.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crti.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o]
+  ignore line: [attempt to open CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o succeeded]
+  ignore line: [CMakeFiles/cmTC_f418c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libstdc++.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libstdc++.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libstdc++.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libstdc++.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so succeeded]
+  ignore line: [-lstdc++ (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so)]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libm.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libm.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libm.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libm.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libm.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libm.a failed]
+  ignore line: [attempt to open /lib/../lib/libm.so failed]
+  ignore line: [attempt to open /lib/../lib/libm.a failed]
+  ignore line: [attempt to open /usr/lib/../lib/libm.so failed]
+  ignore line: [attempt to open /usr/lib/../lib/libm.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libm.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libm.a failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libm.so failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libm.a failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libm.so failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libm.a failed]
+  ignore line: [attempt to open //usr/lib/x86_64-linux-gnu/libm.so succeeded]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libm.so]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libm.so]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/libm.so.6 succeeded]
+  ignore line: [/lib/x86_64-linux-gnu/libm.so.6]
+  ignore line: [attempt to open /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a succeeded]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/libmvec.so.1 succeeded]
+  ignore line: [/lib/x86_64-linux-gnu/libmvec.so.1]
+  ignore line: [/lib/x86_64-linux-gnu/libmvec.so.1]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded]
+  ignore line: [-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libc.a failed]
+  ignore line: [attempt to open /lib/../lib/libc.so failed]
+  ignore line: [attempt to open /lib/../lib/libc.a failed]
+  ignore line: [attempt to open /usr/lib/../lib/libc.so failed]
+  ignore line: [attempt to open /usr/lib/../lib/libc.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../libc.a failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libc.so failed]
+  ignore line: [attempt to open //usr/local/lib/x86_64-linux-gnu/libc.a failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libc.so failed]
+  ignore line: [attempt to open //lib/x86_64-linux-gnu/libc.a failed]
+  ignore line: [attempt to open //usr/lib/x86_64-linux-gnu/libc.so succeeded]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libc.so]
+  ignore line: [opened script file //usr/lib/x86_64-linux-gnu/libc.so]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/libc.so.6 succeeded]
+  ignore line: [/lib/x86_64-linux-gnu/libc.so.6]
+  ignore line: [attempt to open /usr/lib/x86_64-linux-gnu/libc_nonshared.a succeeded]
+  ignore line: [(/usr/lib/x86_64-linux-gnu/libc_nonshared.a)elf-init.oS]
+  ignore line: [attempt to open /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 succeeded]
+  link line: [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    arg [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2] ==> ignore
+  link line: [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    arg [/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2] ==> ignore
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/libgcc_s.a failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so succeeded]
+  ignore line: [-lgcc_s (/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libgcc_s.so)]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.so failed]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/libgcc.a succeeded]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o]
+  ignore line: [attempt to open /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o succeeded]
+  ignore line: [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtn.o]
+  link line: [ld-linux-x86-64.so.2 needed by /data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so]
+    arg [ld-linux-x86-64.so.2] ==> ignore
+    arg [needed] ==> ignore
+    arg [by] ==> ignore
+    arg [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib/libstdc++.so] ==> ignore
+  ignore line: [found ld-linux-x86-64.so.2 at /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  ignore line: [make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp']
+  ignore line: []
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/data/chenchao/anaconda2/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc] ==> [/data/chenchao/anaconda2/lib/gcc]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib] ==> [/data/chenchao/anaconda2/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/data/chenchao/anaconda2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/data/chenchao/anaconda2/lib]
+  collapse linker search dirs dir [=/usr/local/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/usr/lib/x86_64-linux-gnu] ==> [/data/chenchao/xRobot/caffe/=/usr/lib/x86_64-linux-gnu]
+  collapse linker search dirs dir [=/usr/local/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib64]
+  collapse linker search dirs dir [=/lib64] ==> [/data/chenchao/xRobot/caffe/=/lib64]
+  collapse linker search dirs dir [=/usr/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/lib64]
+  collapse linker search dirs dir [=/usr/local/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/local/lib]
+  collapse linker search dirs dir [=/lib] ==> [/data/chenchao/xRobot/caffe/=/lib]
+  collapse linker search dirs dir [=/usr/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/lib]
+  collapse linker search dirs dir [=/usr/x86_64-linux-gnu/lib64] ==> [/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib64]
+  collapse linker search dirs dir [=/usr/x86_64-linux-gnu/lib] ==> [/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/data/chenchao/anaconda2/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/data/chenchao/anaconda2/lib/gcc;/data/chenchao/anaconda2/lib;/lib;/usr/lib]
+  implicit linker search dirs: [/data/chenchao/xRobot/caffe/=/usr/local/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/usr/lib/x86_64-linux-gnu;/data/chenchao/xRobot/caffe/=/usr/local/lib64;/data/chenchao/xRobot/caffe/=/lib64;/data/chenchao/xRobot/caffe/=/usr/lib64;/data/chenchao/xRobot/caffe/=/usr/local/lib;/data/chenchao/xRobot/caffe/=/lib;/data/chenchao/xRobot/caffe/=/usr/lib;/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib64;/data/chenchao/xRobot/caffe/=/usr/x86_64-linux-gnu/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49e35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49e35.dir/build.make CMakeFiles/cmTC_49e35.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49e35.dir/feature_tests.cxx.o
+/data/chenchao/anaconda2/bin/c++     -std=c++1y -o CMakeFiles/cmTC_49e35.dir/feature_tests.cxx.o -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_49e35
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e35.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/c++        CMakeFiles/cmTC_49e35.dir/feature_tests.cxx.o  -o cmTC_49e35 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efc46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efc46.dir/build.make CMakeFiles/cmTC_efc46.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efc46.dir/feature_tests.cxx.o
+/data/chenchao/anaconda2/bin/c++     -std=c++11 -o CMakeFiles/cmTC_efc46.dir/feature_tests.cxx.o -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_efc46
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efc46.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/c++        CMakeFiles/cmTC_efc46.dir/feature_tests.cxx.o  -o cmTC_efc46 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20768/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20768.dir/build.make CMakeFiles/cmTC_20768.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20768.dir/feature_tests.cxx.o
+/data/chenchao/anaconda2/bin/c++     -std=c++98 -o CMakeFiles/cmTC_20768.dir/feature_tests.cxx.o -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_20768
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20768.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/c++        CMakeFiles/cmTC_20768.dir/feature_tests.cxx.o  -o cmTC_20768 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd6f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd6f4.dir/build.make CMakeFiles/cmTC_dd6f4.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd6f4.dir/CheckIncludeFile.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_dd6f4.dir/CheckIncludeFile.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dd6f4
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd6f4.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_dd6f4.dir/CheckIncludeFile.c.o  -o cmTC_dd6f4 -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_377a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_377a9.dir/build.make CMakeFiles/cmTC_377a9.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_377a9.dir/CheckFunctionExists.c.o
+/data/chenchao/anaconda2/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_377a9.dir/CheckFunctionExists.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_377a9
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377a9.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_377a9.dir/CheckFunctionExists.c.o  -o cmTC_377a9 -rdynamic -lpthread 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4192c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4192c.dir/build.make CMakeFiles/cmTC_4192c.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4192c.dir/CheckIncludeFile.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_4192c.dir/CheckIncludeFile.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4192c
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4192c.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_4192c.dir/CheckIncludeFile.c.o  -o cmTC_4192c -rdynamic 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e6d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e6d5.dir/build.make CMakeFiles/cmTC_3e6d5.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e6d5.dir/CheckFunctionExists.c.o
+/data/chenchao/anaconda2/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3e6d5.dir/CheckFunctionExists.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e6d5
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e6d5.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3e6d5.dir/CheckFunctionExists.c.o  -o cmTC_3e6d5 -rdynamic -lpthread 
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+
+

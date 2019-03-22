@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0f46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0f46.dir/build.make CMakeFiles/cmTC_b0f46.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0f46.dir/CheckSymbolExists.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_b0f46.dir/CheckSymbolExists.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b0f46
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0f46.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_b0f46.dir/CheckSymbolExists.c.o  -o cmTC_b0f46 -rdynamic 
+CMakeFiles/cmTC_b0f46.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b0f46.dir/build.make:97: recipe for target 'cmTC_b0f46' failed
+make[1]: *** [cmTC_b0f46] Error 1
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b0f46/fast' failed
+make: *** [cmTC_b0f46/fast] Error 2
+
+File /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a49f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a49f8.dir/build.make CMakeFiles/cmTC_a49f8.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a49f8.dir/CheckFunctionExists.c.o
+/data/chenchao/anaconda2/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a49f8.dir/CheckFunctionExists.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a49f8
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a49f8.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a49f8.dir/CheckFunctionExists.c.o  -o cmTC_a49f8 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a49f8.dir/build.make:97: recipe for target 'cmTC_a49f8' failed
+make[1]: *** [cmTC_a49f8] Error 1
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a49f8/fast' failed
+make: *** [cmTC_a49f8/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdbb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cdbb6.dir/build.make CMakeFiles/cmTC_cdbb6.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdbb6.dir/CheckSymbolExists.c.o
+/data/chenchao/anaconda2/bin/cc     -o CMakeFiles/cmTC_cdbb6.dir/CheckSymbolExists.c.o   -c /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cdbb6
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdbb6.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc       CMakeFiles/cmTC_cdbb6.dir/CheckSymbolExists.c.o  -o cmTC_cdbb6 -rdynamic 
+CMakeFiles/cmTC_cdbb6.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cdbb6.dir/build.make:97: recipe for target 'cmTC_cdbb6' failed
+make[1]: *** [cmTC_cdbb6] Error 1
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cdbb6/fast' failed
+make: *** [cmTC_cdbb6/fast] Error 2
+
+File /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69f11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69f11.dir/build.make CMakeFiles/cmTC_69f11.dir/build
+make[1]: Entering directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69f11.dir/CheckFunctionExists.c.o
+/data/chenchao/anaconda2/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69f11.dir/CheckFunctionExists.c.o   -c /data/chenchao/anaconda2/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69f11
+/data/chenchao/anaconda2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69f11.dir/link.txt --verbose=1
+/data/chenchao/anaconda2/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_69f11.dir/CheckFunctionExists.c.o  -o cmTC_69f11 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69f11.dir/build.make:97: recipe for target 'cmTC_69f11' failed
+make[1]: *** [cmTC_69f11] Error 1
+make[1]: Leaving directory '/data/chenchao/xRobot/caffe/test_cmake/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69f11/fast' failed
+make: *** [cmTC_69f11/fast] Error 2
+
+
